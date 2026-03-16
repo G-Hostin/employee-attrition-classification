@@ -5,6 +5,7 @@ description = "Analyse exploratoire et classification de l'attrition chez TechNo
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "imbalanced-learn>=0.14.1",
     "ipykernel>=7.2.0",
     "jupyterlab>=4.5.5",
     "matplotlib>=3.10.8",
